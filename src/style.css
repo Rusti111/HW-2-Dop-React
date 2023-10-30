@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 400px;
+    margin: 150px auto;
+
+}
+
+.form input {
+    width: 80%;
+}
+
+.form button {
+    width: 20%;
+}
+
+.form input,
+.form button {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    border: 1px solid;
+    padding: 10px;
+}
+
+body {
+    background-image: url(./img/fofo.jpg);
+    animation-name: sky;
+    animation-duration: 50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sky {
+    0% {
+        background-position: 100% -60%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
